@@ -1,0 +1,73 @@
+/* Main Layout */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8fafc;
+  color: #334155;
+}
+
+/* Sidebar */
+.fixed {
+  position: fixed;
+}
+
+/* Content Area */
+.ml-64 {
+  margin-left: 16rem;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.rounded-lg {
+  border-radius: 0.8rem;
+}
+
+/* Chart Container */
+.h-64 {
+  height: 16rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ml-64 {
+    margin-left: 0;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .chart-container {
+    height: 300px !important;
+  }
+}
+
+/* Utility Classes */
+.text-gray-800 {
+  color: #1e293b;
+}
+
+.bg-blue-100 {
+  background-color: #dbeafe;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+/* Animations */
+.hover\:shadow-lg:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
