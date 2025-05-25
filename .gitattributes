@@ -1,0 +1,3 @@
+*.php linguist-language=PHP
+
+Fix: force GitHub to detect PHP instead of Hack
