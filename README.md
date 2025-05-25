@@ -58,6 +58,6 @@ Penerapan metode WP diambil dari:
 
 ---
 
-> Proyek ini dikembangkan sebagai bagian dari tugas akhir/skripsi dan bertujuan untuk membantu proses pengambilan keputusan dalam memilih ban sepeda motor secara objektif.
+> Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah sistem pendukung keputusan yang mana bertujuan untuk membantu proses pengambilan keputusan dalam memilih ban sepeda motor secara objektif.
 
 
